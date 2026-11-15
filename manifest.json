@@ -1,0 +1,44 @@
+{
+  "preparedOn": "2026-11-14",
+  "frame": "Lunar Mean-Earth / DE421",
+  "referenceRadiusM": 1737400,
+  "sourceDocumentation": "docs/DATA_SOURCES.md",
+  "scientificMethod": "docs/METHODOLOGY.md",
+  "files": [
+    {
+      "path": "data/LDEM_4.IMG",
+      "sizeBytes": 2073600,
+      "sha256": "972d66d7f330abca62abc21aae270661516c00dd1a881ec102b94df9563656b5"
+    },
+    {
+      "path": "data/LDEM_4.LBL",
+      "sizeBytes": 5107,
+      "sha256": "b5a197b4d417e3b5e0e84f8fe15f9a1d2203b8eb5d7213236c0ffbc86e940cc6"
+    },
+    {
+      "path": "frontend/assets/globe-dem.json",
+      "sizeBytes": 471691,
+      "sha256": "8ff1317f41df4d2db242848be89ae8b6fa22a0b4840c9938dab3ea0517db653f"
+    },
+    {
+      "path": "frontend/assets/lola-relief.jpg",
+      "sizeBytes": 227564,
+      "sha256": "d09da42d90f1cc746c723aa2bf561c2a25ab9bec1dbfe20d29229a78f505fa48"
+    },
+    {
+      "path": "frontend/assets/mission-terrain.json",
+      "sizeBytes": 2013270,
+      "sha256": "d4dc70699e2c2da6978320fd11c140247f78191f321b496db9a57702d4cb9a9f"
+    },
+    {
+      "path": "frontend/assets/regional-terrain.json",
+      "sizeBytes": 2051359,
+      "sha256": "056c56481c90cb96614d697e9358d023111e403391e237d23baf5fed319c7533"
+    },
+    {
+      "path": "frontend/assets/horizons-example.json",
+      "sizeBytes": 38779,
+      "sha256": "5e3638ec2a4a4f732a8a40efabfaf871568408c52d0da6ac1e2e728b4524127a"
+    }
+  ]
+}
