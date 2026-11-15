@@ -1,0 +1,2 @@
+# Runtime: Python 3.10+ standard library only. No pip packages required.
+# Optional dataset regeneration: rasterio and numpy (not needed to run the website).

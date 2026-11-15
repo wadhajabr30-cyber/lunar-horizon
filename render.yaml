@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: lunar-horizon
+    runtime: python
+    buildCommand: "python --version"
+    startCommand: "python app.py --host 0.0.0.0 --port $PORT --no-browser"
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
